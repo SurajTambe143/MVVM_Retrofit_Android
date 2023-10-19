@@ -38,6 +38,7 @@ class MainActivity : AppCompatActivity() {
                     adapter.updateList(it.results as List<Result>)
             }
 
+
         })
     }
 }
