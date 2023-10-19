@@ -37,8 +37,6 @@ class MainActivity : AppCompatActivity() {
             it?.let {
                     adapter.updateList(it.results as List<Result>)
             }
-
-
         })
     }
 }
